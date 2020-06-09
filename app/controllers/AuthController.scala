@@ -9,6 +9,6 @@ case class RegistrationPayload(firstName: String, lastName: String, phone: Strin
 @Singleton
 class AuthController @Inject()(val controllerComponents: ControllerComponents) extends BaseController  with Circe{
 
-  def auth() = ???
+  def auth() = TODO
 
 }
